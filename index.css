@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+/* header */
+header {
+    background-color: grey;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: darkgrey;
+    letter-spacing: 4px;
+    transition: all 0.5s ease-in;
+}
+
+main {
+    padding: 30px;
+}
+
+/* article1 */
+.profile {
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.profile img:hover {
+    width: 320px;
+    height: 320px;
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+/* article2 */
+#cv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-decoration: none;
+}
+
+.information {
+    margin: 30px 0 10px 0;
+}
+
+/* footer */
+footer {
+    padding: 40px;
+    background-color: lightgray;
+}
